@@ -8,7 +8,7 @@ function App() {
         <div className='mt-3 ml-3 sm:mt-10 sm:ml-28'>
           <Logo  />
           
-          <div className='mt-[114px] flex flex-col gap-10'>
+          <div className='mt-[90px] flex flex-col gap-10'>
             <div className='flex flex-col gap-4'>
               <h1 className='text-4xl font-bold'>Acesse a plataforma</h1>
               <p className='max-w-[351px]'>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
@@ -36,7 +36,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className='sm:flex-1 sm:bg-[url("/src/assets/background.png")]'></div>
+      <div className='sm:flex-1 sm:bg-[url("/src/assets/background.png")] sm:bg-cover'></div>
     </div>
   )
 }
