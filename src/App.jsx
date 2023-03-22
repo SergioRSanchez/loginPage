@@ -4,7 +4,7 @@ import { ReactComponent as EyeOff } from './assets/eye-off.svg';
 function App() {
   return (
     <div className='font-["Titillium_Web"] bg-[url("/src/assets/background.png")] bg-cover flex flex-col sm:flex-row sm:bg-none h-screen'>
-      <div className='flex-1 bg-[#F8FAFC;] rounded-xl mx-3 my-3 sm:mx-0 sm:my-0 '>
+      <div className='flex-1 bg-[#F8FAFC;] rounded-xl mx-3 my-3 sm:mx-0 sm:my-0 flex justify-center sm:justify-start'>
         <div className='mt-3 ml-3 sm:mt-10 sm:ml-28'>
           <Logo  />
           
@@ -13,7 +13,7 @@ function App() {
               <h1 className='text-4xl font-bold'>Acesse a plataforma</h1>
               <p className='max-w-[351px]'>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
             </div>
-            <div className='max-w-[384px] flex flex-col gap-8'>
+            <div className='max-w-[384px] flex flex-col gap-8 pb-2'>
               <div className='flex flex-col gap-4'>
                 <form className='flex flex-col gap-2'>
                   <label for='email' className='text-sm font-semibold'>E-mail</label>
