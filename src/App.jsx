@@ -17,7 +17,7 @@ function App() {
               <div className='flex flex-col gap-4'>
                 <form className='flex flex-col gap-2'>
                   <label for='email' className='text-sm font-semibold'>E-mail</label>
-                  <input id='email' name='email' type="email" className='border-[1px] border-[#E2E8F0] hover:border-[#7C3AED] focus:border-[#7C3AED] outline-0 outline-[#7C3AED] rounded-[4px] w-auto mr-3 sm:w-[384px] px-4 py-3 text-sm' placeholder='Digite seu e-mail'/>
+                  <input required id='email' name='email' type="email" className='border-[1px] border-[#E2E8F0] hover:border-[#7C3AED] focus:border-[#7C3AED] outline-0 outline-[#7C3AED] rounded-[4px] w-auto mr-3 sm:w-[384px] px-4 py-3 text-sm' placeholder='Digite seu e-mail'/>
                   <div className='flex justify-between'>
                     <label for='password' className='text-sm font-semibold'>Senha</label>
                     <button><span className='text-sm font-semibold text-[#7C3AED] mr-4 sm:mr-0'>Esqueceu sua senha?</span></button>
